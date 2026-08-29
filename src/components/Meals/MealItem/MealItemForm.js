@@ -5,11 +5,11 @@ const MealItemForm = (props) => {
     return(
         <form className={styles.form}>
             <Input label='Qty' input={{
-                id: 'amount',
+                id: props.id,
                 type: 'number',
                 min: '1',
                 step: '1',
-                defaulValue: '1'
+                defaultValue: '1'
             }} />
             <button>Add</button>
         </form>
