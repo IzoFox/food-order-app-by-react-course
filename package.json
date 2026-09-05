@@ -2,6 +2,7 @@
   "name": "food-order-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://izofox.github.io/food-order-app-by-react-course/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
