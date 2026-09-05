@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Japanese Kitchen 🍣
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Japanese Kitchen is a learning project I built while studying React.
 
-## Available Scripts
+The project was created step by step as I progressed through a React course. Its main purpose was to practice React concepts in a real application and better understand how components, state, props, context, and hooks work together.
 
-In the project directory, you can run:
+## About the Project
 
-### `npm start`
+Japanese Kitchen is a simple restaurant page that includes a description of the restaurant and a list of available dishes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users can:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Browse the available dishes and their prices
+- Select the desired quantity of a dish
+- Add dishes to the shopping cart
+- View all selected dishes in the cart
+- Increase or decrease the quantity of individual items
+- See the total price of the order
+- See the total number of items in the cart
+- See a cart button animation when a new item is added
 
-### `npm test`
+The list of dishes is currently hardcoded, as the main goal of the project was to practice frontend development with React rather than working with a backend or API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+![Japanese Kitchen Demo](./assets/japanese-kitchen-demo.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can also watch the full project demo on YouTube:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[▶ Watch the demo on YouTube](https://youtube.com/shorts/JeHqS64uMcI)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What I Practiced
 
-### `npm run eject`
+While building this project, I improved my understanding of several React concepts:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Component-based architecture**
+   Breaking an application into smaller reusable components and understanding the responsibilities of each component.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **useState**
+   Managing simple local component state.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **useReducer**
+   Managing more complex state transitions, especially when multiple related state changes are easier to keep together in one place.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **useEffect**
+   Running side effects and synchronizing a component with changes outside the rendering process.
 
-## Learn More
+5. **Effect cleanup**
+   Cleaning up timers and other effects to prevent multiple timers or subscriptions from accumulating.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. **useRef**
+   Keeping references to DOM elements and accessing input values without causing additional renders.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. **Context API**
+   Sharing data between multiple components without passing it through every intermediate component.
 
-### Code Splitting
+8. **Props**
+   Passing data and callbacks between directly related components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+9. **Understanding application data flow**
+   I improved my ability to navigate a component-based project, understand component relationships, and trace how an action in one component eventually affects other parts of the application.
 
-### Analyzing the Bundle Size
+## Git & GitHub Practice
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+While working on Japanese Kitchen, I also practiced and reinforced my knowledge of Git and GitHub.
 
-### Making a Progressive Web App
+This is one of the first learning projects I decided to publish publicly on GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Instead of uploading only the finished project, I committed my progress incrementally while going through the course. Most lessons were completed as separate commits, with a few additional commits for fixes and corrections.
 
-### Advanced Configuration
+This means that the commit history also represents the development process of the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Learning Process
 
-### Deployment
+While studying React and building this application, I created many personal text notes explaining different React concepts and recorded several video notes for myself.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I find working with React quite interesting. Even though we are already living in the age of AI-assisted development, I believe it is still important while learning to write code yourself and understand what is actually happening inside the application.
 
-### `npm run build` fails to minify
+Calling React a "low level" of programming would probably be a bit funny, but the idea is the same: I want to understand the fundamentals instead of only being able to ask AI to generate the result. :)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Running the Project Locally
+
+To run the project on your computer, you will need [Node.js](https://nodejs.org/) and npm installed.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/IzoFox/food-order-app-by-react-course.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd food-order-app-by-react-course
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+The application should then be available at:
+
+```text
+http://localhost:3000
+```
+
+## Technologies
+
+- React
+- JavaScript
+- HTML
+- CSS / CSS Modules
+- Git
+- GitHub
+
+## Project Status
+
+The project is complete as a learning exercise.
+
+Its primary purpose is to document my React learning progress and demonstrate the concepts I practiced while building it.
