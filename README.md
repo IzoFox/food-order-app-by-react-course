@@ -21,7 +21,12 @@ Users can:
 
 The list of dishes is currently hardcoded, as the main goal of the project was to practice frontend development with React rather than working with a backend or API.
 
-## Demo
+## Live Demo on GitHub Pages
+
+You can try the application directly in your browser:
+[Watch the demo on GitHub Pages](https://izofox.github.io/food-order-app-by-react-course/)
+
+## Demo Video
 
 ![Japanese Kitchen Demo](./assets/japanese-kitchen-demo.gif)
 
@@ -59,6 +64,9 @@ While building this project, I improved my understanding of several React concep
 
 9. **Understanding application data flow**
    I improved my ability to navigate a component-based project, understand component relationships, and trace how an action in one component eventually affects other parts of the application.
+
+10. **CI/CD and GitHub Pages**
+    Practiced creating a simple CI/CD pipeline with GitHub Actions. The application is automatically built and deployed to GitHub Pages after changes are pushed to the `main` branch.
 
 ## Git & GitHub Practice
 
